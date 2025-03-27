@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es" class="light-mode">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel de Imágenes</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="theme-toggle-container">
+        <button class="theme-toggle-btn" aria-label="Toggle Dark Mode">
+            <span class="theme-toggle-icon">🌓</span>
+        </button>
+    </div>
+
+    <div class="carousel">
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS34bgnf8ehr3bVIq1hKgLodIyhhSC6ZIfLkg&s" >
+            </div>
+            <div class="carousel-slide">
+                <img src="https://media.gq.com.mx/photos/620e915c43f71a078a35533f/master/pass/playa.jpg" >
+            </div>
+            <div class="carousel-slide">
+                <img src="https://www.vivaplaya.net/viva/wp-content/uploads/2022/04/amanecer-playa-del-carmen-viva-playa.jpg" >
+            </div>
+        </div>
+        <button class="carousel-btn btn-prev">‹</button>
+        <button class="carousel-btn btn-next">›</button>
+        <div class="carousel-indicators">
+            <div class="carousel-indicator active"></div>
+            <div class="carousel-indicator"></div>
+            <div class="carousel-indicator"></div>
+        </div>
+    </div>
+
+    <div class="modal">
+        <div class="modal-contenido">
+            <span class="cerrar">&times;</span>
+            <img src="" alt="Imagen ampliada">
+        </div>
+    </div>
+
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4nW5qMepEJOkZONWTsrc7w?utm_source=generator" width="63%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
