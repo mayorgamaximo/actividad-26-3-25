@@ -20,3 +20,4 @@ Funcionalidades Destacadas
 Cambio automático de slides cada 3.5 segundos
 Modal de imagen a pantalla completa
 Guardado de preferencia de tema en localStorage
+reproductor de spotify
